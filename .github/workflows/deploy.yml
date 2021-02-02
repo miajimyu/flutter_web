@@ -12,8 +12,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
-    - name: Say start a build
-      run: echo flutter build web
     - uses: subosito/flutter-action@v1
       with:
         channel: 'beta'
